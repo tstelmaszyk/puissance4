@@ -66,7 +66,7 @@ class Rules(object):
 
 	def win_move_row_column(self,toTest,player, best=0,increment=0):
 		"""
-		Cette méthode test dans UNE ligne il y a un coup gagnant
+		Cette méthode test dans une ligne il y a un coup gagnant
 		"""
 		if player=='A' or player=='a':
 			playerNumber = 1
